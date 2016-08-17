@@ -3,7 +3,7 @@
 ####
 高仿百思不得姐客户端，可供参考
 
-学习[aeronxie/XFBaiSiBuDeJie](https://github.com/aeronxie/XFBaiSiBuDeJie)，并进行优化\<br>
+学习[aeronxie/XFBaiSiBuDeJie](https://github.com/aeronxie/XFBaiSiBuDeJie)，并进行优化<br>
 如：控制器代码重构、帖子右上角举报收藏功能按钮的显示与隐藏、图片浏览控制器返回键调整、网络状态提醒、登录界面完善等小问题。
 
 ## 程序中使用到的库
