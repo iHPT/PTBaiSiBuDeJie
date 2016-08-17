@@ -1,11 +1,10 @@
 # XFBaiSiBuDeJie
 
 ####
-高仿百思不得姐客户端
+高仿百思不得姐客户端，可供参考
 
-初次学习使用RAC，还不是怎么熟悉，使用的仍是MVC模式，MVVM还在摸索中...
-
-如果大家觉得还不错，请给颗星星支持下~~~
+学习aeronxie/XFBaiSiBuDeJie ![](https://github.com/aeronxie/XFBaiSiBuDeJie)，并进行优化
+如：控制器代码重构、帖子右上角举报收藏功能按钮的显示与隐藏、图片浏览控制器返回键调整、网络状态提醒、登录界面完善等小问题。
 
 ## 程序中使用到的库
 * `AFNetworking`
@@ -38,8 +37,3 @@
 
 ![](http://7xoijj.com1.z0.glb.clouddn.com/baisi%2005.png)
 ![](http://7xoijj.com1.z0.glb.clouddn.com/baisi%2006.png)
-
-
-
-### 程序的还在完善中...如果有什么错误的地方欢迎大家指正，学习交流请Email:
-[memoryoverflowing@foxmail.com]()
