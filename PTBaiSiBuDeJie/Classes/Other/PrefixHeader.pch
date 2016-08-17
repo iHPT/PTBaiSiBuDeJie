@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  PTBaiSiBuDeJie
+//
+//  Created by hpt on 16/6/17.
+//  Copyright © 2016年 hpt. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREEN_FRAME [UIScreen mainScreen].bounds
+
+#define GLOBALCOLOR(r,g,b,a) [UIColor colorWithRed:r/255.f green:g/255.f blue:b/255.f alpha:1]
+
+//背景色
+#define BackgroundColor GLOBALCOLOR(229, 229, 229,1)
+
+#define BaseURL @"http://api.budejie.com/api/api_open.php"
+
+#import "ReactiveCocoa.h"
+#import "UIView+Extension.h"
+#import "UIImage+PTCircle.h"
+#import "UIImageView+Header.h"
+
+typedef NS_ENUM(NSUInteger, TopicType) {
+    TopicTypeAll = 1, // 全部
+    TopicTypePicture = 10, // 图片
+    TopicTypeTalk = 29, // 段子
+    TopicTypeVoice = 31, // 声音
+    TopicTypeVideo = 41 // 视频
+};
+
+#ifdef DEBUG
+#define PTLog(fmt, ...) {NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);}
+#define ELog(err) {if(err) DLog(@"%@", err)}
+#else
+#define PTLog(...)
+#define ELog(err)
+#endif
+
+#endif /* PrefixHeader_pch */
